@@ -1,4 +1,26 @@
+:root {
+  --button-color: rgb(123, 171, 253);
+  --heading-font-family: "Nunito", sans-serif;
+  --default-font-family: "Courier New", Courier, monospace;
+}
+body {
+  margin: 60px auto;
+  text-align: center;
+  max-width: 900px;
+}
+.hero {
+  background-color: #b3a1e3;
+  padding: 40px 20px 40px 20px;
+}
 h1 {
-  font-family: "Courier New", Courier, monospace;
-  color: plum;
+  font-size: 96px;
+  font-family: var(--heading-font-family);
+}
+h2 {
+  font-size: 36px;
+  font-family: var(--default-font-family);
+}
+.btn {
+  background-color: var(--button-color);
+  box-shadow: 10px 5px 5px grey;
 }
