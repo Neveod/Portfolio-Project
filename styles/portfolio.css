@@ -1,5 +1,5 @@
 :root {
-  --button-color: rgb(123, 171, 253);
+  --button-color: rgb(67, 122, 217);
   --heading-font-family: "Nunito", sans-serif;
   --default-font-family: "Courier New", Courier, monospace;
 }
@@ -20,7 +20,25 @@ h2 {
   font-size: 36px;
   font-family: var(--default-font-family);
 }
-.btn {
+.btn-branding {
   background-color: var(--button-color);
   box-shadow: 10px 5px 5px grey;
+  color: white;
+}
+.btn-branding-outline {
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
+}
+.project-description {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: centre;
+    margin-bottom: 2;
+  }
 }
