@@ -12,23 +12,29 @@ body {
   background-color: #b3a1e3;
   padding: 40px 20px 40px 20px;
 }
-.about-section {
+.content-container {
   padding: 30px 15px;
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
-.about-section h1 {
+.content-container {
   font-size: 50px;
   line-height: 1;
 }
-.about-section h2 {
-  font-size: 18px;
+.content-container h2 {
+  font-size: 20px;
   font-family: var(--default-font-family);
+}
+.content-container p {
+  font-size: 18px;
 }
 h1 {
   font-size: 96px;
   font-family: var(--heading-font-family);
+}
+.content h1 {
+  font-size: 60px;
 }
 h2 {
   font-size: 36px;
@@ -48,7 +54,7 @@ h2 {
 }
 @media (max-width: 900px) {
   h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
   .project-description {
     padding: 0;
