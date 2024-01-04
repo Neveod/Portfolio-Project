@@ -25,17 +25,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <meta
+      name=""
+      content="Neve O'Dwyer is a professional front-end engineer in Canada"
+    />
     <title>Portolio Project</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/computer.png" class="img-fluid rounded logo" />
+        <img
+          src="images/computer.png"
+          class="img-fluid rounded logo"
+          alt="Computer Logo"
+        />
         <ul class="justify-content-space-evenly">
-          <li class="active"><a href="/index.html">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="work.html">Work</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="active">
+            <a href="/index.html" title="Home Page">Home</a>
+          </li>
+          <li><a href="/about.html" title="About Page">About</a></li>
+          <li><a href="work.html" title="Work Page">Work</a></li>
+          <li><a href="contact.html" title="Contact Page">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -44,7 +54,7 @@
       <h2>Hello I am</h2>
       <h1>Neve O'Dwyer</h1>
       <h2>Front-end Developer, based in Canada</h2>
-      <div><a href="#" class="btn btn-branding">Contact Me</a></div>
+      <div><a href="/contact.html" class="btn btn-branding">Contact Me</a></div>
     </div>
     <p class="text-center mt-5">
       Featured is a few of my dummy recent projects
@@ -53,7 +63,11 @@
       <div class="project-description">
         <div class="row">
           <div class="col d-none d-lg-block">
-            <img src="images/yogurt.png" class="img-fluid rounded" alt="" />
+            <img
+              src="images/yogurt.png"
+              class="img-fluid rounded"
+              alt="Yogurt Project"
+            />
           </div>
           <div class="col">
             <h2 class="mb-5">Yogurt Project</h2>
@@ -86,14 +100,22 @@
             <a href="" class="btn btn-branding-outline">Learn More</a>
           </div>
           <div class="col d-none d-lg-block">
-            <img src="images/weather.png" class="img-fluid rounded" alt="" />
+            <img
+              src="images/weather.png"
+              class="img-fluid rounded"
+              alt="Weather App Project"
+            />
           </div>
         </div>
       </div>
       <div class="project-description">
         <div class="row">
           <div class="col d-none d-lg-block">
-            <img src="images/yoga.png" class="img-fluid rounded" alt="" />
+            <img
+              src="images/yoga.png"
+              class="img-fluid rounded"
+              alt="Yoga Project"
+            />
           </div>
           <div class="col">
             <h2 class="mb-5">Yoga Project</h2>
@@ -119,20 +141,28 @@
               <h4 class="text-bold">Work Inquiry</h4>
               <p class="text-muted ts">Let's work together</p>
             </div>
-            <div class="btn btn-branding mt-3 mb-3 text-center">Contact Me</div>
+            <div>
+              <div class="btn btn-branding mt-3">Contact Me</div>
+            </div>
           </div>
         </div>
         <div>
           <a href="name@email.com" class="email-link">name@email.com</a>
           <p class="mt-3 mb-2 social-links">
-            <a href="https://www.instagram.com/"
+            <a href="https://www.instagram.com/" target="_blank"
               ><i class="fa-brands fa-instagram"></i
             ></a>
-            <a href="https://github.com/"
+            <a href="https://github.com/" target="_blank"
               ><i class="fa-brands fa-github"></i
             ></a>
           </p>
         </div>
+        <p class="text-muted mt-4">
+          This project was coded by Neve O'Dwyer 2024 and is
+          <a href="https://github.com/Neveod/Portfolio-Project" target="_blank"
+            >open-sourced on Github</a
+          >
+        </p>
       </footer>
     </div>
   </body>
